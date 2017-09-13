@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <a class="main-logo">
+          <img src="img/main-logo.png" width="" height="" alt="логотип седона">
+        </a>
+        <nav class="main-navigation">
+          <ul class="navigation-list">
+            <li class="list-item">
+              <a href="#">информация</a>
+            </li>
+            <li class="list-item">
+              <a href="#">фото и видео</a>
+            </li>
+            <li class="list-item">
+              <a href="#">карта штата</a>
+            </li>
+            <li class="list-item">
+              <a href="#">гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main class="container">
+      <form class="search-hotel" action="index.html" method="post">
+        <div class="settings">
+          <p>инфраструктура:</p>
+          <ul class="setting-list">
+            <li class="setting-list-item">
+              <label for="pool">
+                <input id="pool" type="checkbox" checked name="setting-1" value="pool">бассейн
+              </label>
+            </li>
+            <li class="setting-list-item">
+              <label for="parking">
+                <input id="parking" type="checkbox" name="setting-2" value="parking">парковка
+              </label>
+            </li>
+            <li class="setting-list-item">
+              <label for="wifi">
+                <input id="wifi" type="checkbox" name="setting-3" value="wifi">wi-fi
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="settings">
+          <p>тип жилья:</p>
+          <ul class="setting-list">
+            <li class="setting-list-item">
+              <label for="hotel">
+                <input id="hotel" type="checkbox" checked name="setting-4" value="hotel">гостиница
+              </label>
+            </li>
+            <li class="setting-list-item">
+              <label for="motel">
+                <input id="motel" type="checkbox" checked name="setting-5" value="motel">мотель
+              </label>
+            </li>
+            <li class="setting-list-item">
+              <label for="apartments">
+                <input id="apartments" type="checkbox" checked name="setting-6" value="apartments">апартаменты
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="range-price">
+          <p>стоимость в сутки (р):</p>
+          <input type="text" name="from">
+          <input type="text" name="to">
+        </div>
+        <button type="submit" name="button">показать</button>
+      </form>
+    </main>
+    <div class="container">
+      <footer>
+        <section class="visit">
+          <h3 class="visually-hidden">хэш-тег</h3>
+          #visitsedona
+        </section>
+        <section class="social">
+          <h3 class="visually-hidden">социальные сети</h3>
+          <a class="twiter" href="#"></a>
+          <a class="facebook" href="#"></a>
+          <a class="youtube" href="#"></a>
+        </section>
+        <section class="developer">
+          <h3 class="visually-hidden">разработчик сайта</h3>
+          <span>website by</span>
+          <a class="ha-logo" href="#"></a>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
